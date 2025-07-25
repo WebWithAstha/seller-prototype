@@ -52,7 +52,7 @@ app.use((req, res, next) => {
 // ======================
 // DATABASE CONNECTION
 // ======================
-const { connectDB } = require('./config/db.js');
+// const { connectDB } = require('./config/db.js');
 
 
 
@@ -123,7 +123,7 @@ const startServer = async () => {
     // Create necessary directories
     
     // Connect to database
-    await connectDB();
+    // await connectDB();
     
     // Start server
     const PORT = process.env.PORT || 5000;
